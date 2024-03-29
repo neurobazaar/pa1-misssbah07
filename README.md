@@ -1,25 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/T9GFMA2S)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13611938&assignment_repo_type=AssignmentRepo)
 ## CSC435 Programming Assignment 1 (Winter 2024)
 **Jarvis College of Computing and Digital Media - DePaul University**
 
-**Student**: TO-DO write-student-name (TO-DO write-email-address)
+**Student**: Mohamad Misbah Uddin Zia (mlnu86@depaul.edu)
 
-**Solution programming language**: TO-DO write-solution-programming-language (C++ or Java)
+**Solution programming language**: Java
 
 ### Requirements
-
-If you are implementing your solution in C++ you will need to have GCC 12.x and CMake 3.22.x installed on your system. On Ubuntu 22.04 you can install GCC and set it as default compiler using the following commands:
-
-```
-sudo apt install g++-12 gcc-12 cmake
-sudo update-alternatives --remove-all gcc
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 110
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 120
-sudo update-alternatives --remove-all g++
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 110
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 120
-```
 
 If you are implementing your solution in Java you will need to have Java 1.7.x and Maven 3.6.x installed on your systems. On Ubuntu 22.04 you can install Java and Maven using the following commands:
 
@@ -42,34 +28,6 @@ remote-computer$ mkdir datasets
 local-computer$ scp Dataset1.zip cc@<remote-ip>:<path-to-repo>/datasets/.
 remote-computer$ cd <path-to-repo>/datasets
 remote-computer$ unzip Dataset1.zip
-```
-
-### C++ solution
-#### How to build/compile
-
-To build the C++ solution use the following commands:
-```
-cd app-cpp
-mkdir build
-cmake -S . -B build
-cmake --build build
-```
-
-#### How to run application
-
-To run the C++ clean dataset program (after you build the project) use the following command:
-```
-./build/clean_dataset <input directory> <output directory>
-```
-
-To run the C++ word count program (after you build the project) use the following command:
-```
-./build/count_words <input directory> <output directory>
-```
-
-To run the C++ sort words program (after you build the project) use the following command:
-```
-./build/sort_words <input directory> <output directory>
 ```
 
 ### Java solution
